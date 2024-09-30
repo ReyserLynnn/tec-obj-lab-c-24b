@@ -54,7 +54,7 @@ public:
   {
     if (cola == nullptr)
     {
-      cout << "La lista está vacía, no se puede eliminar." << endl;
+      cout << "\n[-] La lista esta vacia, no se puede eliminar." << endl;
       return;
     }
 
@@ -76,7 +76,7 @@ public:
   {
     if (cabeza == nullptr)
     {
-      cout << "La lista está vacía, no se puede eliminar." << endl;
+      cout << "\n[-] La lista esta vacia, no se puede eliminar." << endl;
       return;
     }
 

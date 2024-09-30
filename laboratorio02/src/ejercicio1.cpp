@@ -122,5 +122,7 @@ int main()
   Procesador procesador(operacion);
   std::cout << "\n[+] Resultado: " << procesador.procesar() << std::endl;
 
+  printf("\n");
+
   return 0;
 }
