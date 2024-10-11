@@ -136,18 +136,18 @@ int main()
   lista.insertarInicio(5);
   lista.insertarInicio(1);
 
-  cout << "\n[+] Lista desde el inicio: ";
+  cout << "\nLista desde el inicio: ";
   lista.mostrarDesdeInicio();
 
-  cout << "[+] Lista desde el final: ";
+  cout << "Lista desde el final: ";
   lista.mostrarDesdeFinal();
 
   lista.eliminarInicio();
-  cout << "[+] Lista despues de eliminar el inicio: ";
+  cout << "Lista despues de eliminar el inicio: ";
   lista.mostrarDesdeInicio();
 
   lista.eliminarFinal();
-  cout << "[+] Lista despues de eliminar el final: ";
+  cout << "Lista despues de eliminar el final: ";
   lista.mostrarDesdeInicio();
 
   printf("\n");

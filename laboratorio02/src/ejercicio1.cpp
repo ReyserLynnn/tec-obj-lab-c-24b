@@ -114,13 +114,13 @@ public:
 int main()
 {
 
-  std::cout << "\n[+] Ingrese la operacion a realizar: ";
+  std::cout << "\nIngrese la operacion a realizar: ";
 
   std::string operacion;
   std::cin >> operacion;
 
   Procesador procesador(operacion);
-  std::cout << "\n[+] Resultado: " << procesador.procesar() << std::endl;
+  std::cout << "\nResultado: " << procesador.procesar() << std::endl;
 
   printf("\n");
 
